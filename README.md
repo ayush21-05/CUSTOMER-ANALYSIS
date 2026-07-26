@@ -34,6 +34,18 @@ End-to-end analysis of retail customer shopping behavior — data cleaning in Py
 9. Repeat buyers (5+ purchases) by subscription status
 10. Customer segmentation: New / Returning / Loyal
 
+## Power BI Dashboard
+
+`dashboard_customer_behavior.pbix` turns the SQL findings into an interactive report, including:
+
+- **Revenue overview** — total revenue by gender, age group, and category
+- **Product insights** — top-selling items, average ratings, discount rates
+- **Shipping & subscription comparison** — spend patterns across shipping types and subscription status
+- **Customer segments** — breakdown of New, Returning, and Loyal customers
+- **Slicers/filters** — for gender, category, shipping type, and subscription status to explore the data interactively
+
+Connects directly to the PostgreSQL `customer` table for live/refreshable data.
+
 ## Tools
 
 Python (pandas, SQLAlchemy) · PostgreSQL · Power BI
