@@ -43,6 +43,9 @@ End-to-end analysis of retail customer shopping behavior — data cleaning in Py
 - **Shipping & subscription comparison** — spend patterns across shipping types and subscription status
 - **Customer segments** — breakdown of New, Returning, and Loyal customers
 - **Slicers/filters** — for gender, category, shipping type, and subscription status to explore the data interactively
+- <img width="665" height="376" alt="Screenshot 2026-07-27 031211" src="https://github.com/user-attachments/assets/08713daa-e727-4e2a-a30a-87cff5e160fa" />
+  DASHBOARD
+
 
 Connects directly to the PostgreSQL `customer` table for live/refreshable data.
 
